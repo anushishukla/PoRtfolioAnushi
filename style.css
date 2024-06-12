@@ -84,7 +84,7 @@ border-radius: 30px;
     padding-bottom: 20px;
 }
 .btn1{
-    font-size: 30px;
+    font-size: 26px;
     color: white;
     border: 1px solid transparent;
     background-color: deeppink;
@@ -172,6 +172,129 @@ border-radius: 30px;
 }
 .text button:hover{
     background-color: red;
+}
+
+
+@media (max-width: 1200px) {
+  .img img {
+      width: 60%;
+      height: auto;
+  }
+  .one h1 {
+      font-size: 40px;
+  }
+  .one h3 {
+      font-size: 18px;
+  }
+  .btn1 {
+      font-size: 25px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero {
+      height: auto;
+      padding: 20px;
+  }
+  nav {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 20px;
+  }
+  .nav ul {
+      padding-left: 0;
+  }
+  .one {
+      position: static;
+      transform: none;
+      margin-top: 20px;
+  }
+  .img {
+      padding-left: 0;
+      margin: 0 auto;
+      text-align: center;
+  }
+  .img img {
+      width: 80%;
+      height: auto;
+  }
+  .main {
+      flex-direction: column;
+  }
+  .text {
+      width: 100%;
+      text-align: center;
+      padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+      flex-direction: column;
+  }
+  nav ul {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+  }
+  nav ul li {
+      width: 100%;
+      text-align: center;
+  }
+  .btn {
+      width: 100%;
+      text-align: center;
+      margin: 10px 0;
+  }
+  .one h1 {
+      font-size: 35px;
+  }
+  .one h3 {
+      font-size: 16px;
+  }
+  .btn1 {
+      width: 100%;
+      text-align: center;
+      margin: 10px 0;
+  }
+  .main {
+      padding: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero {
+      padding: 10px;
+  }
+  nav ul li {
+      padding: 5px 10px;
+  }
+  .one h1 {
+      font-size: 30px;
+  }
+  .one h3 {
+      font-size: 14px;
+  }
+  .btn1 {
+      font-size: 20px;
+  }
+  .img img {
+      width: 90%;
+  }
+}
+
+@media (max-width: 400px) {
+  .one h1 {
+      font-size: 25px;
+  }
+  .one h3 {
+      font-size: 12px;
+  }
+  .btn1 {
+      font-size: 18px;
+  }
 }
 .education {
  
